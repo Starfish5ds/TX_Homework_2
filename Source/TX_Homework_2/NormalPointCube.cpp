@@ -32,14 +32,34 @@ void ANormalPointCube::CheckActor(UPrimitiveComponent* OverlappedComponent, AAct
 	}
 	else
 	{
-		this->Destroy();
+		CurrentHealth--;
+		projectile->Destroy();
+		bGrowing = true;
+		if (CurrentHealth < 1) {
+			projectile->Destroy();
+			this->Destroy();
+		}
 	}
+}
+
+void ANormalPointCube::ChangeScale(float DeltaTime)
+{
+	float CurrentScale = StaticComp->GetComponentScale().X;
+
+	if (bGrowing)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("The boolean value is %s"), (bGrowing ? TEXT("true") : TEXT("false")));
+		CurrentScale -= (DeltaTime);
+	}
+
+	CurrentScale = FMath::Clamp(CurrentScale, 0.5f, 2.0f);
+	StaticComp->SetWorldScale3D(FVector(CurrentScale));
 }
 
 // Called every frame
 void ANormalPointCube::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	ChangeScale(DeltaTime);
 }
 

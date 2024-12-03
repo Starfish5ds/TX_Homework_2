@@ -128,8 +128,12 @@ struct Z_Construct_UClass_ANormalPointCube_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "NormalPointCube.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[] = {
+		{ "ModuleRelativePath", "NormalPointCube.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticComp;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_MaxHealth;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -142,8 +146,10 @@ struct Z_Construct_UClass_ANormalPointCube_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANormalPointCube_Statics::NewProp_StaticComp = { "StaticComp", nullptr, (EPropertyFlags)0x00200800000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANormalPointCube, StaticComp), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StaticComp_MetaData), NewProp_StaticComp_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANormalPointCube_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ANormalPointCube, MaxHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxHealth_MetaData), NewProp_MaxHealth_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANormalPointCube_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANormalPointCube_Statics::NewProp_StaticComp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANormalPointCube_Statics::NewProp_MaxHealth,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ANormalPointCube_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ANormalPointCube_Statics::DependentSingletons[])() = {
@@ -186,10 +192,10 @@ ANormalPointCube::~ANormalPointCube() {}
 struct Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_NormalPointCube_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ANormalPointCube, ANormalPointCube::StaticClass, TEXT("ANormalPointCube"), &Z_Registration_Info_UClass_ANormalPointCube, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANormalPointCube), 2123665652U) },
+		{ Z_Construct_UClass_ANormalPointCube, ANormalPointCube::StaticClass, TEXT("ANormalPointCube"), &Z_Registration_Info_UClass_ANormalPointCube, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANormalPointCube), 1192035569U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_NormalPointCube_h_3199303493(TEXT("/Script/TX_Homework_2"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_NormalPointCube_h_3683502827(TEXT("/Script/TX_Homework_2"),
 	Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_NormalPointCube_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_NormalPointCube_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
