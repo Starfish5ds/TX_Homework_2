@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\UE5\\UE5_Project\\TX_Homework_2\\Source\\TX_Homework_2\\TX_Homework_2.Build.cs",
+		"E:\\UE5\\UE5_Project\\TX_Homework_2\\Source\\TX_Homework_2.Target.cs",
+		"E:\\UE5\\UE5_Project\\TX_Homework_2\\Source\\TX_Homework_2Editor.Target.cs"
+	],
+	"EngineVersion": "5.5.1"
+}

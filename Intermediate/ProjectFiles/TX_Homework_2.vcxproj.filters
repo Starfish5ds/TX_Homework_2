@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TX_Homework_2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TX_Homework_2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TX_Homework_2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TX_Homework_2">
+      <UniqueIdentifier>{AC37CED5-03D8-3F3D-9BDB-B25D0D05487C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TX_Homework_2\NormalPointCube.cpp">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\NormalPointCube.h">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\TX_Homework_2\TX_Homework_2.Build.cs">
+      <Filter>Source\TX_Homework_2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2.cpp">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2.h">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2Character.cpp">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2Character.h">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2GameMode.cpp">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2GameMode.h">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2PickUpComponent.cpp">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2PickUpComponent.h">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2Projectile.cpp">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2Projectile.h">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2WeaponComponent.cpp">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TX_Homework_2\TX_Homework_2WeaponComponent.h">
+      <Filter>Source\TX_Homework_2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
