@@ -105,6 +105,16 @@ struct Z_Construct_UClass_ATX_Homework_2Character_Statics
 		{ "ToolTip", "Look Input Action" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Point_MetaData[] = {
+		{ "Category", "TX_Homework_2Character" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc3\xb7\xef\xbf\xbd\xef\xbf\xbd\xdf\xbc\xef\xbf\xbd\n" },
+#endif
+		{ "ModuleRelativePath", "TX_Homework_2Character.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc3\xb7\xef\xbf\xbd\xef\xbf\xbd\xdf\xbc\xef\xbf\xbd" },
+#endif
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Mesh1P;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
@@ -112,6 +122,7 @@ struct Z_Construct_UClass_ATX_Homework_2Character_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JumpAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_Point;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -125,6 +136,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATX_Homework_2
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_JumpAction = { "JumpAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATX_Homework_2Character, JumpAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_JumpAction_MetaData), NewProp_JumpAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATX_Homework_2Character, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATX_Homework_2Character, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_Point = { "Point", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATX_Homework_2Character, Point), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Point_MetaData), NewProp_Point_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATX_Homework_2Character_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_Mesh1P,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_FirstPersonCameraComponent,
@@ -132,6 +144,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATX_Homew
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_JumpAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_LookAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATX_Homework_2Character_Statics::NewProp_Point,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ATX_Homework_2Character_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ATX_Homework_2Character_Statics::DependentSingletons[])() = {
@@ -174,10 +187,10 @@ ATX_Homework_2Character::~ATX_Homework_2Character() {}
 struct Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_TX_Homework_2Character_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATX_Homework_2Character, ATX_Homework_2Character::StaticClass, TEXT("ATX_Homework_2Character"), &Z_Registration_Info_UClass_ATX_Homework_2Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATX_Homework_2Character), 4029587658U) },
+		{ Z_Construct_UClass_ATX_Homework_2Character, ATX_Homework_2Character::StaticClass, TEXT("ATX_Homework_2Character"), &Z_Registration_Info_UClass_ATX_Homework_2Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATX_Homework_2Character), 212547930U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_TX_Homework_2Character_h_1181710680(TEXT("/Script/TX_Homework_2"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_TX_Homework_2Character_h_860812271(TEXT("/Script/TX_Homework_2"),
 	Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_TX_Homework_2Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TX_Homework_2_Source_TX_Homework_2_TX_Homework_2Character_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

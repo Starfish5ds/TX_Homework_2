@@ -23,17 +23,25 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Static")
 	UStaticMeshComponent* StaticComp;
 	
+	//设置方块最大血量和当前血量
 	UPROPERTY()
 	int32 MaxHealth = 2;
 	int32 CurrentHealth = MaxHealth;
-
+	
+	//改变方块大小函数
 	void ChangeScale(float DeltaTime);
+	//是否改变大小
 	bool bGrowing = false;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	//检测子弹与方块碰撞的函数
 	UFUNCTION()
 	void CheckActor(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Point")
+	int32 GetPoint = 1;
+
+
 };

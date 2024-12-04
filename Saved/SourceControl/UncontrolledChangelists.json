@@ -7,8 +7,28 @@
 			"files": [
 				"E:/UE5/UE5_Project/TX_Homework_2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/BP_NormalPointCube.uasset",
-				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/1H/8L3UMM8LZKJPUW2TKIE17G.uasset",
-				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/DT/S95I3R5OIKZQUSC3TAJ0A9.uasset"
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/DT/S95I3R5OIKZQUSC3TAJ0A9.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/AmmoCount.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/HUD.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/BP_TX_Homework_2Character.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/V2/Y2WFOHOXOGKFZ34INHXTIQ.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/PZ/6A3TRGYCS8LS9TTK3EXRE7.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/0R/8YG7RHDPF776VKT8WSO4G4.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/BP_multiplePointCube.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/FX/27CN7L4HO4W2INOKRFXPYQ.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/AV/KDSC6MLY767IEXCIU3JDLH.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/QR/C33BZSA6G1MHLVS6W6HOSY.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/GN/9W5A55CF58V4FMK6RGH84R.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/YM/EU7CGAZBUJSW6DQIM4TBVK.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/0/CL/FJHE5Z02CMNOG72ZAG6FT3.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/WBPHUD.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/WBP_HUD.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/WBP_EndHUD.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/6E/6F2D6LTL20OM6LBXD63AUN.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/MX/R1GV431P5FDO08OFULRA01.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/Blueprints/HUD_AmmoCount.uasset",
+				"E:/UE5/UE5_Project/TX_Homework_2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/1H/8L3UMM8LZKJPUW2TKIE17G.uasset"
 			]
 		}
 	]

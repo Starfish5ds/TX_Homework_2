@@ -3,6 +3,7 @@
 #include "TX_Homework_2Character.h"
 #include "TX_Homework_2Projectile.h"
 #include "Animation/AnimInstance.h"
+#include "NormalPointCube.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
@@ -34,7 +35,6 @@ ATX_Homework_2Character::ATX_Homework_2Character()
 	Mesh1P->bCastDynamicShadow = false;
 	Mesh1P->CastShadow = false;
 	Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
-
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -75,11 +75,11 @@ void ATX_Homework_2Character::SetupPlayerInputComponent(UInputComponent* PlayerI
 }
 
 
+
 void ATX_Homework_2Character::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
-
 	if (Controller != nullptr)
 	{
 		// add movement 

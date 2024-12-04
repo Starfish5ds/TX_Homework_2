@@ -45,6 +45,7 @@ class ATX_Homework_2Character : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* LookAction;
 	
+
 public:
 	ATX_Homework_2Character();
 
@@ -54,6 +55,7 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+
 
 protected:
 	// APawn interface
@@ -66,6 +68,10 @@ public:
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+	UPROPERTY(BlueprintReadWrite)
+	//人物得分逻辑
+	int32 Point = 0;
+
 
 };
 

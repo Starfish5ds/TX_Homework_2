@@ -13,6 +13,7 @@ class ATX_Homework_2GameMode : public AGameModeBase
 
 public:
 	ATX_Homework_2GameMode();
+
 };
 
 

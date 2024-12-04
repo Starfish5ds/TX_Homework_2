@@ -462,6 +462,8 @@
     <None Include="..\..\TX_Homework_2.uproject"/>
     <None Include="..\..\Source\TX_Homework_2.Target.cs"/>
     <None Include="..\..\Source\TX_Homework_2Editor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
